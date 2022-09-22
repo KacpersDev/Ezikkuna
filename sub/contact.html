@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="../js/main.js"></script>
+    <title>Ota yhteyttä | EzIkkuna</title>
+</head>
+<body style="overflow-x: hidden;">
+    <div class="navbar">
+        <img onclick="location.href='#'" class="nav_image" src="../assets/logo.png" alt="logo">
+        <div class="navbar_buttons">
+            <button class="nav_button" onclick="location.href = '../index.html'">Tietoa meistä</button>
+            <button class="nav_button">Hinnasto</button>
+            <button class="nav_button" onclick="location.href = '#'">Ota yhteyttä</button>
+            <button class="nav_button">Henkilöstö</button>
+        </div>
+        <div class="selector_buttons" onclick="selectorClick()"> <!-- WORKING IF WIDTH OF SITE IS SMALLER THEN 900 PIXELS TO AVOID BUGS-->
+            <button class="selector" id="selector_button">
+                <img class="selector_bar" src="../assets/icon_bar.png" alt="icon">
+            </button>
+        </div>
+        <div class="click_buttons" id="click">
+            <button class="click_button">Tietoa meistä</button>
+            <button class="click_button">Hinnasto</button>
+            <button class="click_button">Ota yhteyttä</button>
+            <button class="click_button">Henkilöstö</button>
+        </div>
+    </div>
+    <div class="main">
+        <p class="main_title">Ota Yhteyttä</p>
+        <p class="main_email">asiakaspalvelu@ezikkuna.com</p>
+        <p class="main_phone-1">+358453215949</p>
+        <p class="main_phone-2">+358449756706</p>
+    </div>
+    <div class="contact">
+        <p class="contact_title">Voit myös ottaa yhteyttä tällä lomakkeella..</p>
+        <input class="contact_input" id="name" placeholder="Etunimi" type="text">
+        <input class="contact_input" id="surname" placeholder="Sukunimi" type="text">
+        <input class="contact_input" id="email" placeholder="Sähköposti" type="text">
+        <input class="contact_input" id="phone" placeholder="Puhelinnumero" type="text">
+        <textarea name="" id="text" placeholder="Kirjoita viesti.. (Ikkunoiden määrä, koot ja muuta mitä meidän tulisi tietää)"
+        style="resize: none; width: 300px; height: 100px;"></textarea>
+        <button class="submit_button" id="contact_button">Lähetä</button>
+    </div>
+</body>
+</html>
