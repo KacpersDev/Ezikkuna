@@ -11,7 +11,3 @@ const selectorClick = () => {
         document.getElementById("selector_button").style.backgroundColor = 'white';
     }
 };
-
-const selectorButtonClick = () => {
-    
-};
