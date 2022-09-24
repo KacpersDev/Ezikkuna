@@ -11,12 +11,3 @@ const selectorClick = () => {
         document.getElementById("selector_button").style.backgroundColor = 'white';
     }
 };
-
-const submitClick = () => {
-    const name = document.getElementById('name').innerHTML;
-    const surname = document.getElementById('surname').innerHTML;
-    console.log(name);
-    console.log(surname);
-};
-
-document.getElementById('contact_button').addEventListener('click', submitClick);
