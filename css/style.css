@@ -195,11 +195,13 @@
     margin-left: 75px;
     margin-top: 10px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #surname {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
+    border-radius: 10px;
 }
 
 #email {
@@ -207,11 +209,13 @@
     text-align: center;
     margin-left: 75px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #phone {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
+    border-radius: 10px;
 }
 
 #text {
@@ -219,6 +223,7 @@
     text-align: center;
     margin-left: 100px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #contact_button {
@@ -228,7 +233,10 @@
     width: 100%;
     width: 350px;
     margin-left: 80px;
+    border-radius: 10px;
+    background: none;
 }
+
 
 @media only screen and (max-width: 900px) {
     .nav_button {
@@ -295,7 +303,7 @@
     }
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-height: 1066px) {
     .footer {
         visibility: hidden;
     }

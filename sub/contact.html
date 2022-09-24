@@ -26,9 +26,9 @@
             </button>
         </div>
         <div class="click_buttons" id="click">
-            <button class="click_button">Tietoa meistä</button>
+            <button class="click_button" onclick="location.href ='../index.html'">Tietoa meistä</button>
             <button class="click_button">Hinnasto</button>
-            <button class="click_button">Ota yhteyttä</button>
+            <button class="click_button" onclick="location.href = '#'">Ota yhteyttä</button>
             <button class="click_button">Henkilöstö</button>
         </div>
     </div>
@@ -46,7 +46,7 @@
         <input class="contact_input" id="phone" placeholder="Puhelinnumero" type="text">
         <textarea name="textarea" id="text" placeholder="Kirjoita viesti.. (Ikkunoiden määrä, koot ja muuta mitä meidän tulisi tietää)"
         style="resize: none; width: 300px; height: 100px;"></textarea>
-        <button class="submit_button" id="contact_button">Lähetä</button>
+        <button class="submit_button" id="contact_button" onclick="submitClick()">Lähetä</button>
     </div>
     <div class="footer">
         <img class="footer_logo" src="../assets/footer_logo.png" alt="footer logo">
