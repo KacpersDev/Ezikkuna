@@ -26,7 +26,7 @@
 }
 
 .navbar_buttons {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display:flex;
     justify-content: right;
     margin-right: 50px;
@@ -46,7 +46,7 @@
 }
 
 .main {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 140px;
     margin-bottom: 225px;
     text-align: center;
@@ -99,7 +99,7 @@
     color: rgb(57, 57, 57);
     font-weight: bold;
     font-size: 17px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main_logo {
@@ -109,7 +109,7 @@
 .facebook:hover, .twitter:hover {
     cursor: pointer;
     border-radius: 20px;
-    border: 1px solid rgb(57, 57, 57);
+    border: 1px solid rgb(218, 218, 218);
 }
 
 .selector {
@@ -132,7 +132,7 @@
     visibility: hidden;
     margin-top: 30px;
     display: grid;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .click_button {
@@ -173,16 +173,20 @@
 
 .contact_title {
     font-size: 15px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
 .contact_input {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    border: 1px solid #eee;
+    background-color: rgb(165, 255, 255);
+    height: 30px;
 }
 
 .contact {
+    margin-top: -100px;
     width: 100%;
     max-width: 500px;
     margin-left: auto;
@@ -190,7 +194,7 @@
 }
 
 #name {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-left: 75px;
     margin-top: 10px;
@@ -199,13 +203,13 @@
 }
 
 #surname {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     border-radius: 10px;
 }
 
 #email {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-left: 75px;
     margin-bottom: 20px;
@@ -213,28 +217,37 @@
 }
 
 #phone {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     border-radius: 10px;
 }
 
 #text {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-left: 100px;
     margin-bottom: 10px;
     border-radius: 10px;
+    border: 1px solid #eee;
+    background-color: rgb(165, 255, 255);
 }
 
 #contact_button {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    width: 350px;
-    margin-left: 80px;
+    width: 50%;
+    height: 30px;
+    margin-left: 125px;
     border-radius: 10px;
     background: none;
+    background-color: rgb(165, 255, 255);
+    border: 1px solid #eee;
+}
+
+#contact_button:hover {
+    cursor: pointer;
+    background-color: rgba(165, 255, 255, 0.558);
 }
 
 
