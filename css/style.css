@@ -321,3 +321,70 @@
         visibility: hidden;
     }
 }
+
+/* PRICE.HTML */
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.image_1 {
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    width: 400px;
+    height: 550px;
+    margin: 40px;
+}
+
+.image_2 {
+    margin: 40px;
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    width: 400px;
+    height: 550px;
+}
+
+.window_image {
+    width: 200px;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.window_title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.plus {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: url('../assets/plus.png');
+    margin-left: 100px;
+    
+    border-radius: 40px;
+}
+
+.minus {
+    background: url('../assets/minus.png');
+    
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-left: 100px;
+}
+
+.value {
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -40px;
+}

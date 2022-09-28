@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/price.js"></script>
+    <script src="../js/main.js"></script>
+    <title>Ikkunanpesua nuorilta | EzIkkuna</title>
+</head>
+<body style="overflow-x: hidden;">
+    <div class="navbar">
+        <img onclick="location.href='../index.html'" class="nav_image" src="../assets/logo.png" alt="logo">
+        <div class="navbar_buttons">
+            <button class="nav_button" onclick="location.href = '../index.html'">Tietoa meistä</button>
+            <button class="nav_button">Hinnasto</button>
+            <button class="nav_button" onclick="location.href = '#'">Ota yhteyttä</button>
+            <button class="nav_button">Henkilöstö</button>
+        </div>
+        <div class="selector_buttons" onclick="selectorClick()"> <!-- WORKING IF WIDTH OF SITE IS SMALLER THEN 900 PIXELS TO AVOID BUGS-->
+            <button class="selector" id="selector_button">
+                <img class="selector_bar" src="../assets/icon_bar.png" alt="icon">
+            </button>
+        </div>
+        <div class="click_buttons" id="click">
+            <button class="click_button" onclick="location.href ='../index.html'">Tietoa meistä</button>
+            <button class="click_button">Hinnasto</button>
+            <button class="click_button" onclick="location.href = '#'">Ota yhteyttä</button>
+            <button class="click_button">Henkilöstö</button>
+        </div>
+    </div>
+    <div class="images">
+        <div class="image_1">
+            <p class="window_title">Avautuva 1-lasinen ikkuna / ovi</p>
+            <img class="window_image" src="../assets/window5.png" alt="window 5">
+            <button class="plus"></button>
+            <button class="minus"></button>
+            <p class="value">0</p>
+        </div>
+        <div class="image_2">
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+</html>
