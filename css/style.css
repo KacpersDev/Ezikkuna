@@ -413,3 +413,19 @@
     text-align: center;
     margin-top: -40px;
 }
+
+@media only screen and (max-width: 1250px) {
+    .images_1, .images_2, .images_3, .images_4, .images_5, .images_6 {
+        display: grid;
+    }
+
+    .image_1, .image_2 {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .plus-1, .plus-2 {
+        margin-left: 200px;
+    }
+}
