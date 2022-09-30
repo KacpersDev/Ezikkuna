@@ -275,6 +275,21 @@
     .nav_image {
         width: 150px;
     }
+
+    .footer_price {
+        font-size: 14px;
+        margin-right: -50px;
+    }
+
+    .footer_time {
+        font-size: 14px;
+        
+    }
+
+    .footer_button {
+        font-size: 14px;
+        margin-right: 10px;
+    }
 }
 
 @media only screen and (min-width: 901px) {
@@ -479,14 +494,14 @@
     }
 
     .footer_price {
-        margin-left: 75px;
+        margin-left: 10px;
     }
 
     .footer_time {
-        margin-left: 30px;
+        margin-left: 100px;
     }
     .footer_button {
-        margin-left: 25px;
+        margin-left: 75px;
     }
 }
 
