@@ -250,6 +250,25 @@
     background-color: rgba(165, 255, 255, 0.558);
 }
 
+.footer_button {
+    margin-top: 30px;
+    background: none;
+    height: 25px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_button:hover {
+    cursor: pointer;
+}
+
+.price_title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.time_title {
+    font-family: 'Roboto', sans-serif;
+}
 
 @media only screen and (max-width: 900px) {
     .nav_button {
@@ -282,8 +301,7 @@
     }
 
     .footer_time {
-        font-size: 14px;
-        
+        font-size: 14px;   
     }
 
     .footer_button {
