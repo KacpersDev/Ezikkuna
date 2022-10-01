@@ -1,4 +1,4 @@
-const first = {price: 10, time: 10};
+const first = {price: 10, time: 10}; 
 const second = {price: 20, time: 20}
 const third = {price: 20, time: 20}
 const fourth = {price: 20, time: 20}
@@ -131,6 +131,62 @@ const removeFourth = () => {
     }
 
     document.getElementById('value-4').innerHTML = fourthClick;
+    document.getElementById('price_value').innerHTML = total + '$';
+    document.getElementById('time_value').innerHTML = minutes + ' mins';
+}
+
+const addFivth = () => {
+    total = total + fivth.price;
+    fivthClick = fivthClick + 1;
+    minutes = minutes + fivth.time;
+
+    document.getElementById('value-5').innerHTML = fivthClick;
+    document.getElementById('price_value').innerHTML = total + '$';
+    document.getElementById('time_value').innerHTML = minutes + ' mins';
+};
+
+const removeFivth = () => {
+    if (fivthClick > 0) {
+        if (total > 0) { 
+            total = total - fivth.price;
+        }
+        if (minutes > 0) {
+            minutes = minutes - fivth.time;
+        }
+        if (fivthClick > 0) {
+            fivthClick = fivthClick - 1;
+        }
+    }
+
+    document.getElementById('value-5').innerHTML = fivthClick;
+    document.getElementById('price_value').innerHTML = total + '$';
+    document.getElementById('time_value').innerHTML = minutes + ' mins';
+}
+
+const addSixth = () => {
+    total = total + sixth.price;
+    sixthClick = sixthClick + 1;
+    minutes = minutes + sixth.time;
+
+    document.getElementById('value-6').innerHTML = sixthClick;
+    document.getElementById('price_value').innerHTML = total + '$';
+    document.getElementById('time_value').innerHTML = minutes + ' mins';
+};
+
+const removeSixth = () => {
+    if (sixthClick > 0) {
+        if (total > 0) { 
+            total = total - sixth.price;
+        }
+        if (minutes > 0) {
+            minutes = minutes - sixth.time;
+        }
+        if (sixthClick > 0) {
+            sixthClick = sixthClick - 1;
+        }
+    }
+
+    document.getElementById('value-6').innerHTML = sixthClick;
     document.getElementById('price_value').innerHTML = total + '$';
     document.getElementById('time_value').innerHTML = minutes + ' mins';
 }
