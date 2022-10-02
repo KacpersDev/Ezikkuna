@@ -356,6 +356,12 @@
     }
 }
 
+@media only screen and (max-width: 669px) {
+    .selector {
+        margin-top: -40px;
+    }
+}
+
 /* PRICE.HTML */
 
 .images_1, .images_2, .images_3, .images_4, .images_5, .images_6 {
