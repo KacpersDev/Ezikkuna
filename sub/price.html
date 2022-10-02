@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/price.js"></script>
     <script src="../js/main.js"></script>
@@ -85,48 +86,48 @@
         <div class="image_1">
             <p class="window_title">3-lasinen ikkunatukea tarvitseva ikkuna (yli 1,5 m leveä)</p>
             <img class="window_image" src="../assets/window12.png" alt="window 12">
-            <button class="plus-1"></button>
-            <button class="minus"></button>
-            <p class="value">0</p>
+            <button class="plus-1" onclick="addSeventh()"></button>
+            <button class="minus" onclick="removeSeventh()"></button>
+            <p class="value" id="value-7">0</p>
         </div>
         <div class="image_2">
             <p class="window_title">Parveke kääntyvä lasi</p>
             <img class="window_extra" src="../assets/window8.png" alt="window 8"> 
-            <button class="plus-2"></button>
-            <button class="minus"></button>
-            <p class="value">0</p>
+            <button class="plus-2" onclick="addEighth()"></button>
+            <button class="minus" onclick="removeEighth()"></button>
+            <p class="value" id="value-8">0</p>
         </div>
     </div>
     <div class="images_5">
         <div class="image_1">
             <p class="window_title">peili / peiliovi</p>
             <img class="window_image" src="../assets/window5.png" alt="window 5">
-            <button class="plus-1"></button>
-            <button class="minus"></button>
-            <p class="value">0</p>
+            <button class="plus-1" onclick="addNinth()"></button>
+            <button class="minus" onclick="removeNinth()"></button>
+            <p class="value" id="value-9">0</p>
         </div>
         <div class="image_2">
             <p class="window_title">Avautumaton ikkuna</p>
             <img class="window_image" src="../assets/window7.png" alt="window 7"> 
-            <button class="plus-2"></button>
-            <button class="minus"></button>
-            <p class="value">0</p>
+            <button class="plus-2" onclick="addTenth()"></button>
+            <button class="minus" onclick="removeTenth()"></button>
+            <p class="value" id="value-10">0</p>
         </div>
     </div>
     <div class="images_6">
         <div class="image_1">
             <p class="window_title">Avautuva ruutuikkuna</p>
             <img class="window_image" src="../assets/window6.png" alt="window 6">
-            <button class="plus-1"></button>
-            <button class="minus"></button>
-            <p class="value">0</p>
+            <button class="plus-1" onclick="addEleventh()"></button>
+            <button class="minus" onclick="removeEleventh()"></button>
+            <p class="value" id="value-11">0</p>
         </div>
         <div class="image_2">
             <p class="window_title">Avautumaton 3-6 m korkeudessa maasta/lattiasta</p>
             <img class="window_extra" src="../assets/window9.png" alt="window 9"> 
-            <button class="plus-2"></button>
-            <button class="minus"></button>
-            <p class="value">0</p>
+            <button class="plus-2" onclick="addTwelveth()"></button>
+            <button class="minus" onclick="removeTwelveth()"></button>
+            <p class="value" id="value-12">0</p>
         </div>
     </div>
     <footer class="price_footer">
