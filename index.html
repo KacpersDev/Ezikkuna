@@ -1,70 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/alert.css"> <!-- ALERT CSS -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/alert.css" />
+    <!-- ALERT CSS -->
     <script src="js/main.js"></script>
     <title>Ikkunanpesua nuorilta | EzIkkuna</title>
-</head>
-<body style="overflow-x: hidden;">
+  </head>
+  <body style="overflow-x: hidden">
     <div class="navbar">
-        <img onclick="location.href='#'" class="nav_image" src="assets/logo.png" alt="logo">
-        <div class="navbar_buttons">
-            <button class="nav_button" onclick="location.href = '#'">Tietoa meistä</button>
-            <button class="nav_button" onclick="location.href = 'sub/price.html'">Hinnasto</button>
-            <button class="nav_button" onclick="location.href = 'sub/contact.html'">Ota yhteyttä</button>
-            <button class="nav_button" onclick="location.href = 'sub/about.html'">Henkilöstö</button>
-        </div>
-        <div class="selector_buttons" onclick="selectorClick()"> <!-- WORKING IF WIDTH OF SITE IS SMALLER THEN 900 PIXELS TO AVOID BUGS-->
-            <button class="selector" id="selector_button">
-                <img class="selector_bar" src="assets/icon_bar.png" alt="icon">
-            </button>
-        </div>
-        <div class="click_buttons" id="click">
-            <button class="click_button" onclick="location.href ='#'">Tietoa meistä</button>
-            <button class="click_button" onclick="location.href = 'sub/price.html'">Hinnasto</button>
-            <button class="click_button" onclick="location.href = 'sub/contact.html'">Ota yhteyttä</button>
-            <button class="click_button" onclick="location.href = 'sub/about.html'">Henkilöstö</button>
-        </div>
+      <img
+        onclick="location.href='#'"
+        class="nav_image"
+        src="assets/logo.png"
+        alt="logo"
+      />
+      <div class="navbar_buttons">
+        <button class="nav_button" onclick="location.href = '#'">
+          Tietoa meistä
+        </button>
+        <button class="nav_button" onclick="location.href = 'sub/price.html'">
+          Hinnasto
+        </button>
+        <button class="nav_button" onclick="location.href = 'sub/contact.html'">
+          Ota yhteyttä
+        </button>
+        <button class="nav_button" onclick="location.href = 'sub/about.html'">
+          Henkilöstö
+        </button>
+      </div>
+      <div class="selector_buttons" onclick="selectorClick()">
+        <!-- WORKING IF WIDTH OF SITE IS SMALLER THEN 900 PIXELS TO AVOID BUGS-->
+        <button class="selector" id="selector_button">
+          <img class="selector_bar" src="assets/icon_bar.png" alt="icon" />
+        </button>
+      </div> 
+      <div class="click_buttons" id="click">
+        <button class="click_button" onclick="location.href ='#'">
+          Tietoa meistä
+        </button>
+        <button class="click_button" onclick="location.href = 'sub/price.html'">
+          Hinnasto
+        </button>
+        <button
+          class="click_button"
+          onclick="location.href = 'sub/contact.html'"
+        >
+          Ota yhteyttä
+        </button>
+        <button class="click_button" onclick="location.href = 'sub/about.html'">
+          Henkilöstö
+        </button>
+      </div>
     </div>
     <div class="main">
-        <p class="main_title">Puhdasta jälkeä nuorilta</p>
-        <p class="main_description">
-            Teemme ikkunanpesut ja -puhdistukset ammattitaidolla yksityisille ja yrityksille.
-            Toimimme pääosin uudenmaan alueella.
-            Ota yhteyttä ja kysy lisää!
-        </p>
-        <p class="main_subtitle">Meidän somet:</p>
-        <div class="facebook" onclick="location.href = 'https://www.facebook.com/ezikkuna'">
-            <img class="main_logo" src="assets/facebook.png" alt="facebook logo">
-            <p class="box_title">Facebook</p>
-        </div>
-        <div class="twitter" onclick="location.href ='https://twitter.com/EIkkuna'">
-            <img class="main_logo" src="assets/twitter.png" alt="twitter logo">
-            <p class="box_title">Twitter</p>
-        </div>
+      <p class="main_title">Puhdasta jälkeä nuorilta</p>
+      <p class="main_description">
+        Teemme ikkunanpesut ja -puhdistukset ammattitaidolla yksityisille ja
+        yrityksille. Toimimme pääosin uudenmaan alueella. Ota yhteyttä ja kysy
+        lisä
+      </p>
+      <p class="main_subtitle">Meidän somet:</p>
+      <div
+        class="facebook"
+        onclick="location.href = 'https://www.facebook.com/ezikkuna'"
+      >
+        <img class="main_logo" src="assets/facebook.png" alt="facebook logo" />
+        <p class="box_title">Facebook</p>
+      </div>
+      <div
+        class="twitter"
+        onclick="location.href ='https://twitter.com/EIkkuna'"
+      >
+        <img class="main_logo" src="assets/twitter.png" alt="twitter logo" />
+        <p class="box_title">Twitter</p>
+      </div>
     </div>
     <div class="footer">
-        <div class="footer_left">
-            <p class="footer_text" id="left-1">EZIKKUNA.com</p>
-            <p class="footer_text" id="left-2">045 321 5949</p>
-            <p class="footer_text" id="left-3">0449756706</p>
-        </div>
-        <div class="footer_mid">
-            <img class="footer_image" src="assets/ez.png" alt="ez logo">
-        </div>
-        <div class="footer_right">
-            <p class="footer_text">Olemme auki 24/7</p>
-        </div>
+      <div class="footer_left">
+        <p class="footer_text" id="left-1">EZIKKUNA.com</p>
+        <p class="footer_text" id="left-2">045 321 5949</p>
+        <p class="footer_text" id="left-3">0449756706</p>
+      </div>
+      <div class="footer_mid">
+        <img class="footer_image" src="assets/ez.png" alt="ez logo" />
+      </div>
+      <div class="footer_right">
+        <p class="footer_text">Olemme auki 24/7</p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
+

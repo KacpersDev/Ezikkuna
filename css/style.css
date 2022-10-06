@@ -169,19 +169,22 @@
     justify-content: center;
     margin-top: -90px;
     width: 350px;
+    font-size: 19px;
 }
 
 .footer_left {
     display: flex;
     justify-content: left;
     margin-left: 10px;
-    width: 100px;
+    width: 200px;
+    font-size: 19px;
 }
 
 .footer_right {
     display: flex;
     justify-content: right;
     margin-top: -60px;
+    font-size: 19px;
     margin-right: 10px;
 }
 
@@ -197,7 +200,7 @@
 
 #left-1 {
     line-height: 5px;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 20px;
 }
 
@@ -210,7 +213,7 @@
 #left-3 {
     line-height: 5px;
     margin-top: 65px;
-    margin-left: -102px;
+    margin-left: -120px;
 }
 
 .footer_text {
